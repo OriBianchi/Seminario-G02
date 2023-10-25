@@ -1,0 +1,237 @@
+:root {
+    --main-blue: #355389;
+    --main-light-blue: #86B2F3;
+    --white-grey: #F2F2F2
+}
+body{
+    width: 100%;
+    text-align: center;
+    font-family: 'Gothic A1', sans-serif;
+    margin-bottom: 80px; /* para el footer */
+    margin-top: 80px; /* para el footer */
+}
+.titleContainer {
+    text-align: center;
+}
+h2{
+    margin-top: 10%;
+}
+form{
+    margin-top: 20%;
+    text-align: center;
+}
+.formGroup{
+    margin: 5%;
+}
+input{
+    border-radius: 15px;
+    border: 1px solid black;
+    border-color: var(--main-blue);
+}
+.btn1{
+    background-color: var(--main-blue);
+    color: white;
+    padding: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 7px;
+    width: 40%;
+}
+.btn2{
+    background-color: var(--main-blue);
+    color: white;
+    padding: 3%;
+    border-radius: 7px;
+    width: 55%;
+    font-size: smaller;
+}
+.btn-wrapper{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+button {
+    box-shadow: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25%;
+    
+}
+input{
+    padding: 2%;
+    padding-left: 5%;
+
+}
+
+/*  */
+.materia-container{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-around;
+    margin-bottom: 10%;
+
+}
+.icon-img{
+    font-size: 50px;
+    width: 25%;
+}
+.blue-header{
+    
+    background-color: var(--main-blue);
+    color: white;
+    padding:5%;
+    text-align: left;
+    margin-bottom: 10%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+p{
+    margin: 0
+}
+.btn3-grey{
+    background-color: var(--white-grey);
+ /*    color: white; */
+    padding: 3%;
+    border-radius: 7px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: smaller;
+    box-shadow: none;
+}
+.text-left{
+    text-align: left;
+}
+.footer{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    bottom: 0;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-top: 1px solid var(--main-blue);
+    background-color: var(--main-light-blue);
+}
+.footer-icon{
+    font-size: 22px;
+}
+.detalle-curso {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: start;
+    margin-bottom: 10%;
+}
+.detalle-curso-icon{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/* AGREGAR a Styles raso */
+
+/* Style for the options container */
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for each checkbox option */
+.option {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the checkbox input */
+.option input[type="checkbox"] {
+    display: none;
+}
+
+/* Style for the custom checkmark */
+.checkmark {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0073e6;
+    border-top: none;
+    border-right: none;
+    transform: rotate(45deg);
+    margin-right: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect for the custom checkmark */
+.option:hover .checkmark {
+    background-color: #0073e6;
+    border-color: #0073e6;
+}
+
+/* Selected effect for the custom checkmark */
+.option input[type="checkbox"]:checked + .checkmark {
+    background-color: #0073e6;
+    border-color: #0073e6;
+}
+
+/* Style for the text label */
+.option label {
+    font-size: 18px;
+}
+
+
+/* Style for the options container */
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style for each radio option */
+.option {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the radio button input */
+.option input[type="radio"] {
+    display: none;
+}
+
+/* Style for the custom radio button */
+.radio-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0073e6;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect for the custom radio button */
+.option:hover .radio-custom {
+    background-color: #0073e6;
+    border-color: #0073e6;
+}
+
+/* Selected effect for the custom radio button */
+.option input[type="radio"]:checked + .radio-custom {
+    background-color: #0073e6;
+    border-color: #0073e6;
+}
+
+/* Style for the text label */
+.option label {
+    font-size: 18px;
+}
+
+textarea {
+    resize: none;
+}
