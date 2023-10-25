@@ -3,7 +3,7 @@ body{
     max-height: 100vh;
 }
 .login-container{
-    height: 95%;
+    height: 100%;
     background-image:url(./src/background.png);
     background-repeat: no-repeat;
     background-size: cover;
